@@ -15,6 +15,7 @@ struct ContentView: View {
                     Image(systemName: "book.pages")
                     Text("Guitar Log")
                 }
+                .background(Color.bgColor)
             
             TunerView()
                 .tabItem {
@@ -28,6 +29,7 @@ struct ContentView: View {
                     Text("Setting")
                 }
         }
+        .background(Color.bgColor)
     }
 }
 

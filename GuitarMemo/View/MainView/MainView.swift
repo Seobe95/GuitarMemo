@@ -10,8 +10,8 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         VStack {
-            Text("Guitar App")
+            MemoItem(title: "연습제목")
         }
-        .padding()
+        .padding(.horizontal, 16)
     }
 }

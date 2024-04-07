@@ -12,4 +12,3 @@ struct SettingView: View {
         Text("Setting View")
     }
 }
-
